@@ -7,9 +7,9 @@ class FormData
     public array $inputs = [];
     public array $files = [];
 
-    public function __construct(private string $content)
+    public function __construct(string $content)
     {
-        $this->parseContent($this->content);
+        $this->parseContent($content);
     }
 
     private function parseContent(string $content): void
