@@ -1,5 +1,5 @@
 {
-  "name": "alireaza/php-form-data",
+  "name": "rire/php-form-data",
   "version": "1.0.0",
   "type": "library",
   "license": "MIT",
@@ -25,9 +25,7 @@
       "url": "https://www.linkedin.com/in/alireaza"
     }
   ],
-  "require": {
-    "php": "^8.0.0"
-  },
+  "require": {},
   "require-dev": {
     "phpunit/phpunit": "^9.5.16"
   },
